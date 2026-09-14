@@ -2,7 +2,7 @@
 Documentation     Basic Robot Framework practice using variables and custom keywords
 
 *** Variables ***
-${USERNAME_1}       teemu
+${USERNAME_1}       max
 ${PASSWORD_1}       secret123
 
 ${USERNAME_2}    alice

@@ -2,7 +2,7 @@
 Documentation    Practice with keyword return values
 
 *** Variables ***
-${USERNAME}    teemu
+${USERNAME}    max
 ${PASSWORD}    secret123
 
 *** Test Cases ***

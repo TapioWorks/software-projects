@@ -1,5 +1,6 @@
 import time
 
+
 def count(end, start=0):
     for x in range(start, end+1):
         print(x)

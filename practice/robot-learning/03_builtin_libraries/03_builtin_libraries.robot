@@ -6,9 +6,9 @@ Library    String
 
 *** Test Cases ***
 User Data Validation
-    ${users}=    Create List    teemu    alice    bob
+    ${users}=    Create List    max    alice    bob
     List Should Contain Value    ${users}    alice
     List Should Contain Value    ${users}    bob
 
-    ${uppercase_username}=    Convert To Upper Case    teemu
-    Should Be Equal    ${uppercase_username}    TEEMU
+    ${uppercase_username}=    Convert To Upper Case    max
+    Should Be Equal    ${uppercase_username}    MAX
