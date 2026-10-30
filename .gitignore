@@ -33,6 +33,17 @@ venv/
 env/
 ENV/
 
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+!example.env
+
+# Local data files
+*.csv
+*.sqlite
+*.sqlite3
+
 # =========================
 # Node.js
 # =========================
